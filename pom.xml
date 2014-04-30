@@ -25,13 +25,20 @@
       </plugin>
     </plugins>
   </build>
+
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-webmvc</artifactId>
+	</dependency>  	
+  </dependencies>
   <dependencyManagement>
   	<dependencies>
   		<dependency>
   			<groupId>org.springframework</groupId>
   			<artifactId>spring-webmvc</artifactId>
   			<version>4.0.3.RELEASE</version>
-  			<type>war</type>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
